@@ -19,13 +19,13 @@
 	leds {
 		compatible = "gpio-leds";
 
-		stat_b {
-			label = "blue";
+		led_blue: status-blue {
+			label = "blue:status";
 			gpios = <&gpio0 14 GPIO_ACTIVE_HIGH>;
 		};
 
-		stat_w {
-			label = "white";
+		status-white {
+			label = "white:status";
 			gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
 		};
 
