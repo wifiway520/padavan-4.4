@@ -19,16 +19,15 @@
 	leds {
 		compatible = "gpio-leds";
 
-		led_blue: status-blue {
-			label = "blue:status";
-			gpios = <&gpio0 14 GPIO_ACTIVE_HIGH>;
-		};
-
-		status-white {
-			label = "white:status";
-			gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
-		};
-
+		
+        sys_blue { 
+                label = "power";
+                gpios = <&gpio0 14 GPIO_ACTIVE_HIGH>;
+        };
+	
+        wan {
+            label = "wan";
+            gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>; 
 	};
         
         gpio-keys-polled {
