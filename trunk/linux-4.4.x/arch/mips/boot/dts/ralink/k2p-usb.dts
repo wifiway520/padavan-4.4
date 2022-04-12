@@ -22,12 +22,12 @@
 		
                 sys_blue { 
                          label = "power";
-                         gpios = <&gpio0 14 GPIO_ACTIVE_LOW>;
+                         gpios = <&gpio0 14 GPIO_ACTIVE_HIGH>;
                 };
 	
                 wan {
                     label = "wan";
-                    gpios = <&gpio0 13 GPIO_ACTIVE_LOW>; 
+                    gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>; 
 		};		    
 	
 	};
