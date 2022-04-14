@@ -10,7 +10,7 @@
 
 / {
 	compatible = "mediatek,mt7621-soc";
-	model = "MT1300";
+	model = "K2P-USB";
 
 	chosen {
 		bootargs = "console=ttyS0,57600";
