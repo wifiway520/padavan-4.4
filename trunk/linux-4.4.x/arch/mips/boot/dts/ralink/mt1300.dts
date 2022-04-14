@@ -10,7 +10,7 @@
 
 / {
 	compatible = "mediatek,mt7621-soc";
-	model = "K2P-USB";
+	model = "Phicomm K2P";
 
 	chosen {
 		bootargs = "console=ttyS0,57600";
