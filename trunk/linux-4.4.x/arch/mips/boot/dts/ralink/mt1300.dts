@@ -10,7 +10,7 @@
 
 / {
 	compatible = "mediatek,mt7621-soc";
-	model = "Phicomm K2P";
+	model = "GL-MT1300";
 
 	chosen {
 		bootargs = "console=ttyS0,57600";
