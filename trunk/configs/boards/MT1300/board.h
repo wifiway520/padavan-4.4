@@ -1,4 +1,4 @@
-/* K2P-USB */
+/* MT1300 */
 
 #define BOARD_PID		"MT1300"
 #define BOARD_NAME		"MT1300"
