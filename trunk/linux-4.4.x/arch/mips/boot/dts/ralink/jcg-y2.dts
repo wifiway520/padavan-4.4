@@ -8,7 +8,7 @@
 
 / {
 	compatible = "mediatek,mt7621-soc";
-	model = "GL-MT1300";
+	model = "JCG-Y2";
 
 	chosen {
 		bootargs = "console=ttyS0,57600";
