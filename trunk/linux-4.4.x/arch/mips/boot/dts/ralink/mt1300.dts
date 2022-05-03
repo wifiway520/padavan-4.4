@@ -22,12 +22,12 @@
 		compatible = "gpio-leds";
 
 		led_run: blue {
-			label = "gl-mt1300:blue";
+			label = "power";
 			gpios = <&gpio0 14 GPIO_ACTIVE_HIGH>;
 		};
 
 		white {
-			label = "gl-mt1300:white";
+			label = "wan";
 			gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
 		};
 
