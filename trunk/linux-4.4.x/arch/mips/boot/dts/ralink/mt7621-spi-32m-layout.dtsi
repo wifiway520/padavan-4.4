@@ -11,7 +11,7 @@
 
 		partition@0 {
 			label = "Bootloader";
-			reg = <0x00000 0x30000>; /* 192K */
+			reg = <0x0 0x30000>; /* 192K */
 		};
 
 		partition@30000 {
@@ -26,7 +26,7 @@
 
 		partition@50000 {
 			label = "firmware";
-			reg = <0x50000 0x1f30000>;
+			reg = <0x50000 0x1fb0000>;
 		};
 
 		partition@1f80000 {
